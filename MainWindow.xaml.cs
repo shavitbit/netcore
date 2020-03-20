@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -29,6 +30,13 @@ namespace wpfTestCore
         {
             MessageBox.Show("Hello " + txt1.Text);
             MessageBox.Show("i am trying to add somhting to the git gub environment ");
+
+  //          WebRequest req = WebRequest.Create(@"https://od-api-demo.oxforddictionaries.com:443/api/v1/domains/en/es");
+  //          req.Method = "GET";
+  //          req.Headers["Authorization"] = "Basic " + Convert.ToBase64String(Encoding.Default.GetBytes("username:password"));
+  //          //req.Credentials = new NetworkCredential("username", "password");
+  //          HttpWebResponse resp = req.GetResponse() as HttpWebResponse;
+  //          MessageBox.Show(resp.StatusDescription);
         }
     }
 }

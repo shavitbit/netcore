@@ -28,6 +28,7 @@ namespace wpfTestCore
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Hello " + txt1.Text);
+            MessageBox.Show("i am trying to add somhting to the git gub environment ");
         }
     }
 }

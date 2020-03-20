@@ -1,0 +1,15 @@
+﻿<Window x:Class="wpfTestCore.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpfTestCore"
+        mc:Ignorable="d"
+        Title=" Hello Name" Height="162" Width="288">
+    <Grid>
+        <Button Content="ok" HorizontalAlignment="Left" Margin="70,68,0,0" VerticalAlignment="Top" Height="21" Width="86" Click="Button_Click"/>
+        <TextBox HorizontalAlignment="Left" Margin="70,31,0,0" Name="txt1" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="23,25,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

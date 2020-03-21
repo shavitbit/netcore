@@ -38,6 +38,11 @@ namespace wpfTestCore
   //          HttpWebResponse resp = req.GetResponse() as HttpWebResponse;
   //          MessageBox.Show(resp.StatusDescription);
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("test n 2");
+        }
     }
 }
  
